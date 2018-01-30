@@ -1,9 +1,11 @@
 * {
   color: white;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  margin: 0;
-  padding: 0;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 300 !important;
+}
+
+.btn:hover {
+  cursor: pointer;
 }
 
 header {
@@ -32,6 +34,7 @@ header {
 }
 
 .my-nav ul li a {
+  color: white;
   text-decoration: none;
   transition: 0.3s linear;
 }
@@ -51,8 +54,14 @@ header {
 
 .title {
   font-size: 3rem;
+  text-align: center;
 }
 
 .title h3 {
+  font-size: 3rem;
   margin-bottom: 1.3rem;
+}
+
+.title h5 {
+  font-size: 2rem;
 }
