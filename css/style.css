@@ -1,12 +1,28 @@
+/* Global Styles */
 * {
-  color: white;
   font-family: 'Roboto', sans-serif !important;
   font-weight: 300 !important;
+}
+
+.btn {
+  padding: 1rem 2rem;
 }
 
 .btn:hover {
   cursor: pointer;
 }
+
+section {
+  margin: 5rem 0;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #6B5B95
+}
+
+/* Header Page Styles */
 
 header {
   background: linear-gradient(
@@ -17,6 +33,7 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  color: white;
   height: 100vh;
 }
 
@@ -60,8 +77,55 @@ header {
 .title h3 {
   font-size: 3rem;
   margin-bottom: 1.3rem;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /* border-right: .15em solid orange; The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 1.5rem auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .1em; /* Adjust as needed */
+  animation: 
+    typing 2.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
 
 .title h5 {
   font-size: 2rem;
+  margin-bottom: 2rem;
+  width: 0;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  /* border-right: .15em solid orange; The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto 1.5rem auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .1em; /* Adjust as needed */
+  animation: 
+    typing 2.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+  animation-delay: 2.7s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+  /* from { width: 0 }
+  to { width: 100%; } */
+  0% { width: 0 }
+  100% { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+/* About Page Styles */
+.about-header {
+  text-align: center;
+}
+
+.about-header hr {
+  border-color: steelblue;
+  width: 15rem;
+}
+
+#coding-pic {
+  margin-top: 6rem;
 }
