@@ -8,13 +8,13 @@ a {
   text-decoration: none !important;
 }
 
-.btn {
+/* .btn {
   padding: 1rem 2rem;
 }
 
 .btn:hover {
   cursor: pointer;
-}
+} */
 
 section {
   margin: 3rem 0;
@@ -134,6 +134,57 @@ header {
   to {
     border-right: none;
   }
+}
+
+.my-button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 15px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 5rem;
+  opacity: 0;
+  animation: 2s fade-in 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.my-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.my-button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.my-button:hover span {
+  padding-right: 25px;
+}
+
+.my-button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 /* About Page Styles */
