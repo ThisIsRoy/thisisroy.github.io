@@ -1,7 +1,7 @@
 /* Global Styles */
 * {
   font-family: 'Roboto', sans-serif !important;
-  font-weight: 300 !important;
+  font-weight: 300;
 }
 
 a {
@@ -17,7 +17,8 @@ a {
 }
 
 section {
-  margin: 5rem 0;
+  margin: 3rem 0;
+  padding: 2rem 0;
 }
 
 .subtitle {
@@ -30,6 +31,10 @@ section {
 hr {
   border-color: steelblue;
   width: 15rem;
+}
+
+.bolded {
+  font-weight: 700;
 }
 
 /* Header Page Styles */
@@ -95,7 +100,7 @@ header {
   animation: 
     typing 2.5s steps(40, end),
     blink-caret .75s step-end infinite,
-    remove-caret 0.1s linear 3s;
+    remove-caret 0.1s linear 2.8s;
   animation-fill-mode: forwards;
 }
 
@@ -154,7 +159,6 @@ header {
 }
 
 .project-subtitle {
-  color: #388E8E;
   text-align: center;
   margin: 3rem 0 3rem 0;
 }
@@ -169,6 +173,17 @@ header {
   justify-content: center;
   color: white;
   transition: ease-in-out 0.3s;
+}
+
+.project-soon {
+  border-radius: 1rem;
+  width: 25rem;
+  height: 15rem;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
 .project:hover {
@@ -200,4 +215,22 @@ header {
       rgba(10, 10, 156, 0.75), 
       rgba(10, 10, 156, 0.75)
     ), url(../img/sapphire.jpeg);
+}
+
+#angular {
+  background: url(../img/angular.png);
+}
+
+/* Logo Page */
+.logos {
+  margin-bottom: 4rem;
+}
+
+.logo-section hr {
+  margin-bottom: 6rem;
+  width: 9rem;
+}
+
+.logo-section .subtitle {
+  margin-bottom: 3rem;
 }
