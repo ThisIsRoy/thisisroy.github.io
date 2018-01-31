@@ -5,7 +5,12 @@
 }
 
 a {
+  color: white;
   text-decoration: none !important;
+}
+
+a:hover {
+  color: white;
 }
 
 /* .btn {
@@ -283,5 +288,5 @@ header {
 }
 
 .logo-section .subtitle {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
