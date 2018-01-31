@@ -4,6 +4,10 @@
   font-weight: 300 !important;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .btn {
   padding: 1rem 2rem;
 }
@@ -20,6 +24,12 @@ section {
   text-transform: uppercase;
   font-weight: 700;
   color: #6B5B95
+}
+
+
+hr {
+  border-color: steelblue;
+  width: 15rem;
 }
 
 /* Header Page Styles */
@@ -78,13 +88,15 @@ header {
   font-size: 3rem;
   margin-bottom: 1.3rem;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  /* border-right: .15em solid orange; The typwriter cursor */
+  border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 1.5rem auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .1em; /* Adjust as needed */
   animation: 
     typing 2.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+    blink-caret .75s step-end infinite,
+    remove-caret 0.1s linear 3s;
+  animation-fill-mode: forwards;
 }
 
 .title h5 {
@@ -92,7 +104,6 @@ header {
   margin-bottom: 2rem;
   width: 0;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  /* border-right: .15em solid orange; The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto 1.5rem auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .1em; /* Adjust as needed */
@@ -104,10 +115,8 @@ header {
 }
 
 @keyframes typing {
-  /* from { width: 0 }
-  to { width: 100%; } */
-  0% { width: 0 }
-  100% { width: 100% }
+  0% { width: 0; border-right: 0.15rem solid orange; }
+  100% { width: 100%; border-right: 0.15rem solid orange; }
 }
 
 /* The typewriter cursor effect */
@@ -116,16 +125,79 @@ header {
   50% { border-color: orange; }
 }
 
+@keyframes remove-caret {
+  to {
+    border-right: none;
+  }
+}
+
 /* About Page Styles */
 .about-header {
   text-align: center;
 }
 
-.about-header hr {
-  border-color: steelblue;
-  width: 15rem;
-}
-
 #coding-pic {
   margin-top: 6rem;
+}
+
+/* Projects Page */
+.project-section {
+  background-color: #f7f7f7;
+}
+
+.project-section .header-title {
+  padding-top: 4rem;
+}
+
+.project-section .row {
+  margin-bottom: 5rem;
+}
+
+.project-subtitle {
+  color: #388E8E;
+  text-align: center;
+  margin: 3rem 0 3rem 0;
+}
+
+.project {
+  border-radius: 1rem;
+  width: 25rem;
+  height: 15rem;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: ease-in-out 0.3s;
+}
+
+.project:hover {
+  transform: scale(1.02);
+  opacity: 0.9;
+}
+
+.project-text {
+  color: #808080;
+  margin-top: 1rem;
+}
+
+#expensebuddy {
+  background: linear-gradient(
+      rgba(192, 62, 255, 0.45), 
+      rgba(192, 62, 255, 0.45)
+    ), url(../img/expensebuddy.jpg);
+}
+
+#riconnect {
+  background: linear-gradient(
+      rgba(0, 205, 102, 0.45), 
+      rgba(0, 205, 102, 0.45)
+    ), url(../img/riconnect.jpg);
+}
+
+#sapphire {
+  background: linear-gradient(
+      rgba(10, 10, 156, 0.75), 
+      rgba(10, 10, 156, 0.75)
+    ), url(../img/sapphire.jpeg);
 }
