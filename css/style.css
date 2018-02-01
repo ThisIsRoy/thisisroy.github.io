@@ -1,6 +1,6 @@
 /* Global Styles */
 * {
-  font-family: 'Roboto', sans-serif !important;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
 
@@ -201,6 +201,10 @@ header {
   margin-top: 6rem;
 }
 
+.about-section p {
+  text-align: justify;
+}
+
 /* Projects Page */
 .project-section {
   background-color: #f7f7f7;
@@ -217,6 +221,10 @@ header {
 .project-subtitle {
   text-align: center;
   margin: 3rem 0 3rem 0;
+}
+
+.project-section i {
+  color: #6B5B95;
 }
 
 .project {
