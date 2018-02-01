@@ -252,7 +252,7 @@ header {
 
 .project:hover {
   transform: scale(1.02);
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .project-text {
@@ -283,6 +283,27 @@ header {
 
 #angular {
   background: url(../img/angular.png);
+}
+
+.card {
+  transition: 0.3s ease-in-out; 
+}
+
+.card:hover {
+  outline: 4px solid aquamarine;
+  transform: scale(1.02);
+}
+
+.card-block h4 {
+  border-bottom: 1px solid #6B5B95;
+  color: #6B5B95;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+.card-block p {
+  color: #808080;
+  padding: 0.5rem; 
 }
 
 /* Logo Page */
