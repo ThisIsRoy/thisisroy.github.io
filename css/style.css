@@ -332,9 +332,23 @@ header {
 }
 
 .resource {
+  margin: 3em 0;
   text-align: center;
 }
 
 .resource i {
   color: #FED766;
+}
+
+.resource h3 {
+  margin: 0.5em 0 0.8em 0;
+}
+
+.resource p {
+  color: #93a4aa;
+  /* text-align: justify; */
+}
+
+.misc-section a {
+  color: #808080;
 }
