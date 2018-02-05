@@ -13,6 +13,11 @@ a:hover {
   color: white;
 }
 
+.big-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
 /* .btn {
   padding: 1rem 2rem;
 }
@@ -318,4 +323,18 @@ header {
 
 .logo-section .subtitle {
   margin-bottom: 1rem;
+}
+
+/* Misc Section */
+.misc-section {
+  background-color: #f7f7f7;
+  margin-bottom: 0;
+}
+
+.resource {
+  text-align: center;
+}
+
+.resource i {
+  color: #FED766;
 }
