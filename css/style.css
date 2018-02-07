@@ -364,3 +364,15 @@ header {
 .github a {
   color: steelblue;
 }
+
+/* Footer */
+.footer {
+  background-color: #252a30;
+  margin:0;
+  padding: 1rem;
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+}
