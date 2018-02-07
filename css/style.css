@@ -349,6 +349,18 @@ header {
   /* text-align: justify; */
 }
 
+.resource a:hover {
+  opacity: 0.75;
+}
+
 .misc-section a {
   color: #808080;
+}
+
+.misc-section li p a:hover {
+  opacity: 0.7;
+}
+
+.github a {
+  color: steelblue;
 }
