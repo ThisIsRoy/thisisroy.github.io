@@ -18,6 +18,11 @@ a:hover {
   margin: 0 auto;
 }
 
+.small-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
 /* .btn {
   padding: 1rem 2rem;
 }
@@ -45,6 +50,10 @@ hr {
 
 .bolded {
   font-weight: 700;
+}
+
+.yellow {
+  color: #FFDC00;
 }
 
 /* Header Page Styles */
