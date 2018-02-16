@@ -215,7 +215,8 @@ header {
   text-align: center;
 }
 
-#coding-pic {
+#roy-pic {
+  border-radius: 50%;
   margin-top: 6rem;
 }
 
