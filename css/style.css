@@ -288,25 +288,25 @@ header {
   background: linear-gradient(
       rgba(192, 62, 255, 0.45), 
       rgba(192, 62, 255, 0.45)
-    ), url(../img/expensebuddy.jpg);
+    ), url(../img/project/expensebuddy.jpg);
 }
 
 #riconnect {
   background: linear-gradient(
       rgba(0, 205, 102, 0.45), 
       rgba(0, 205, 102, 0.45)
-    ), url(../img/riconnect.jpg);
+    ), url(../img/project/riconnect.jpg);
 }
 
 #sapphire {
   background: linear-gradient(
       rgba(10, 10, 156, 0.75), 
       rgba(10, 10, 156, 0.75)
-    ), url(../img/sapphire.jpeg);
+    ), url(../img/project/sapphire.jpeg);
 }
 
 #angular {
-  background: url(../img/angular.png);
+  background: url(../img/project/angular.png);
 }
 
 .card {
