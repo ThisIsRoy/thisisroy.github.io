@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1200px) {
+  .project-text {
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title h3 {
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .title h5 {
+    font-size: 1.5rem;
+  }
+
+  .my-button {
+    font-size: 20px;
+    padding: 10px;
+    width: 130px;
+  }
+
+  #roy-pic {
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .title h3 {
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .title h5 {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .my-nav ul li a {
+    font-size: 0.7rem;
+  }
+
+  .my-nav ul li {
+    padding-right: 0.5rem;
+  }
+}

@@ -110,6 +110,7 @@ header {
       -ms-flex-pack: end;
           justify-content: flex-end;
   list-style: none;
+  margin-bottom: 4rem;
   padding-top: 0.5rem;
   width: 100%;
 }
@@ -133,7 +134,7 @@ header {
 }
 
 .sticky-nav {
-  background-color: #2E4A62;
+  background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
   position: fixed;
   top: 0;
   right: 0;
