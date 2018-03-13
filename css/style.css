@@ -110,7 +110,8 @@ header {
       -ms-flex-pack: end;
           justify-content: flex-end;
   list-style: none;
-  padding: 2rem;;
+  padding-top: 0.5rem;
+  width: 100%;
 }
 
 .my-nav ul li {
@@ -129,6 +130,14 @@ header {
 .my-nav ul li a:hover {
   border-bottom: 1px solid aquamarine;
   color: aquamarine;
+}
+
+.sticky-nav {
+  background-color: #2E4A62;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999;
 }
 
 .header-title {
