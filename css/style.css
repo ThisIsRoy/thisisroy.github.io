@@ -60,6 +60,19 @@ hr {
   color: dodgerblue;
 }
 
+
+/* Loader Style */
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(../img/preloader.gif) center no-repeat #fff;
+}
+
+
 /* Header Page Styles */
 
 header {
@@ -145,6 +158,9 @@ header {
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 1.5rem auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .1em; /* Adjust as needed */
+}
+
+.upperAnimation {
   -webkit-animation: 
     typing 2.5s steps(40, end),
     blink-caret .75s step-end infinite,
@@ -165,6 +181,9 @@ header {
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto 1.5rem auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .1em; /* Adjust as needed */
+}
+
+.lowerAnimation {
   -webkit-animation: 
     typing 2.5s steps(40, end),
     blink-caret .75s step-end infinite;
@@ -224,6 +243,9 @@ header {
   cursor: pointer;
   margin-top: 5rem;
   opacity: 0;
+}
+
+.buttonFadein {
   -webkit-animation: 2s fade-in 5s;
           animation: 2s fade-in 5s;
   -webkit-animation-fill-mode: forwards;

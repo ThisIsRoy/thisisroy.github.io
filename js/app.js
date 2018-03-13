@@ -1,3 +1,13 @@
+// Remove loading icon when window fully loaded
+$(window).on('load', function () {
+  $(".se-pre-con").fadeOut("slow");
+  $('#upperTitle').addClass('upperAnimation');
+  $('#lowerTitle').addClass('lowerAnimation');
+  $('#moreButton').addClass('buttonFadein');
+});
+
+
+// Animates scrolling motion 
 $('#see-more').click(function() {
   $('html, body').animate({
     scrollTop: $('.project-section').offset().top
@@ -27,4 +37,6 @@ $('#skills-link').click(function () {
     scrollTop: $('.logo-section').offset().top
   }, 2000);
 });
+
+
 
