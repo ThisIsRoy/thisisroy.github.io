@@ -541,8 +541,20 @@ header {
   opacity: 0.7;
 }
 
-.github a {
+.misc-section ul li p{
+  margin-bottom: 0.3rem;
+}
+
+.contact-info {
+  margin-top: 3rem;
+}
+
+.contact-info i {
   color: steelblue;
+}
+
+.contact-info span {
+  color: #6B5B95;
 }
 
 /* Footer */
