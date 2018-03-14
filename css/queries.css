@@ -1,3 +1,13 @@
+@media only screen and (max-width: 1600px) {
+  .title h3 {
+    font-size: 3rem;
+  }
+
+  .title h5 {
+    font-size: 2rem;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   .project-text {
     margin-bottom: 3rem;
