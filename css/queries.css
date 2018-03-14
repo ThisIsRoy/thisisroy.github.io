@@ -6,6 +6,12 @@
   .title h5 {
     font-size: 2rem;
   }
+
+  .my-button {
+    font-size: 28px;
+    padding: 15px;
+    width: 200px;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
