@@ -3,7 +3,7 @@ $(window).on('load', function () {
   $(".se-pre-con").fadeOut("slow");
   $('#upperTitle').addClass('upperAnimation');
   $('#lowerTitle').addClass('lowerAnimation');
-  $('#moreButton').addClass('buttonFadein');
+  $('#see-more').addClass('buttonFadein');
 });
 
 $(document).ready(() =>{
