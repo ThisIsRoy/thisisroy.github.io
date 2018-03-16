@@ -12,6 +12,10 @@
     padding: 15px;
     width: 200px;
   }
+
+  .my-nav ul li a {
+    font-size: 1.2rem;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -36,6 +40,10 @@
     width: 130px;
   }
 
+  .my-nav ul li a {
+    font-size: 0.8rem;
+  }
+
   #roy-pic {
     margin-bottom: 3rem;
   }
@@ -54,7 +62,7 @@
 
 @media only screen and (max-width: 380px) {
   .my-nav ul li a {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 
   .my-nav ul li {
