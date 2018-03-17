@@ -1,4 +1,6 @@
+/*-------------- */
 /* Global Styles */
+/* ------------- */
 * {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -64,7 +66,9 @@ hr {
 }
 
 
+/* ------------------ */
 /* Header Page Styles */
+/* ------------------ */
 
 header {
   background: -webkit-gradient(
@@ -301,7 +305,10 @@ header {
   right: 0;
 }
 
+/* ----------------- */
 /* About Page Styles */
+/* ----------------- */
+
 .about-header {
   text-align: center;
 }
@@ -315,7 +322,10 @@ header {
   text-align: justify;
 }
 
+/* ------------- */
 /* Projects Page */
+/* ------------- */
+
 .project-section {
   background-color: #f7f7f7;
 }
@@ -483,7 +493,10 @@ header {
   padding: 0.5rem; 
 }
 
+/* --------- */
 /* Logo Page */
+/* --------- */
+
 .logos {
   margin-bottom: 4rem;
 }
@@ -497,7 +510,10 @@ header {
   margin-bottom: 1rem;
 }
 
+/* ------------ */
 /* Misc Section */
+/* ------------ */
+
 .misc-section {
   background-color: #f7f7f7;
   margin-bottom: 0;
@@ -549,7 +565,10 @@ header {
   color: #6B5B95;
 }
 
+/* ------ */
 /* Footer */
+/* ------ */
+
 .footer {
   background-color: #252a30;
   margin:0;
