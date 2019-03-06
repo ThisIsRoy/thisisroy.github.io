@@ -32,7 +32,8 @@ section {
 
 .subtitle {
   text-transform: uppercase;
-  font-weight: 700;
+  font-size: 3rem;
+  font-weight: 300;
   color: #6B5B95
 }
 
@@ -74,20 +75,20 @@ header {
   background: -webkit-gradient(
       linear, 
       left top, left bottom, 
-      from(rgba(0, 0, 0, 0.5)), 
-      to(rgba(0, 0, 0, 0.5))
+      from(rgba(0, 0, 0, 0.7)), 
+      to(rgba(0, 0, 0, 0.7))
     ), url(../img/mountain.jpeg) no-repeat center center fixed;
   background: -webkit-linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
     ), url(../img/mountain.jpeg) no-repeat center center fixed;
   background: -o-linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
     ), url(../img/mountain.jpeg) no-repeat center center fixed;
   background: linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
     ), url(../img/mountain.jpeg) no-repeat center center fixed;
   background-size: cover;
   color: white;
@@ -153,6 +154,7 @@ header {
 
 .title {
   font-size: 3rem;
+  opacity: 0.8;
   text-align: center;
 }
 
@@ -332,6 +334,10 @@ header {
 
 .project-section .header-title {
   padding-top: 4rem;
+}
+
+#project-link {
+  font-weight: 300;
 }
 
 .project-section h3 a {
