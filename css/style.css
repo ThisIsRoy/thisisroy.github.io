@@ -168,6 +168,14 @@ header {
   letter-spacing: .1em; /* Adjust as needed */
 }
 
+#upperTitle{
+  font-weight: 700;
+}
+
+#lowerTitle{
+  font-weight: 200;
+}
+
 .upperAnimation {
   -webkit-animation: 
     typing 2.5s steps(40, end),
