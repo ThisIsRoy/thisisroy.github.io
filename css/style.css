@@ -454,12 +454,12 @@ header {
   margin-bottom: 3rem;
 }
 
-.card:hover {
+/* .card:hover {
   outline: 4px solid aquamarine;
   -webkit-transform: scale(1.02);
       -ms-transform: scale(1.02);
           transform: scale(1.02);
-}
+} */
 
 .card-block h4 {
   border-bottom: 1px solid #6B5B95;

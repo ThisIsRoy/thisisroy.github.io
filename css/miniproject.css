@@ -6,6 +6,15 @@
 .miniproject {
     height: 100vh;
     background-image: 
+    -webkit-gradient(linear, 
+   left top, right bottom, 
+   from(rgba(76, 216, 255, 0.8)),
+   to(rgba(30, 108, 217, 0.8)));
+    background-image: 
+    -o-linear-gradient(left top, 
+   rgba(76, 216, 255, 0.8),
+   rgba(30, 108, 217, 0.8));
+    background-image: 
     linear-gradient(to right bottom, 
    rgba(76, 216, 255, 0.8),
    rgba(30, 108, 217, 0.8));
@@ -14,13 +23,16 @@
     background-position: top;
     position: relative;
 
-    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+
+            clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
 }
 
 @media (max-width: 767px) {
     .miniproject {
-        height: 200vh;
-        clip-path: none;
+        height: 250vh;
+        -webkit-clip-path: none;
+                clip-path: none;
     }
 } 
 
