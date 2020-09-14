@@ -368,6 +368,10 @@ header {
   transition: ease-in-out 0.3s;
 }
 
+.project p {
+  margin: 0;
+}
+
 .project-soon {
   border-radius: 1rem;
   width: 25rem;
@@ -433,8 +437,13 @@ header {
     ), url(../img/project/houston.jpg);
 }
 
-#angular {
-  background: url(../img/project/angular.png);
+#mafia {
+  background: -webkit-gradient(
+    linear, 
+    left top, left bottom, 
+    from(rgba(2, 0, 36 , 0.75)), 
+    to(rgba(2, 0, 36, 0.75))
+  ), url(../img/project/mafia.jpg);
 }
 
 .card {
@@ -512,6 +521,27 @@ header {
 
 .misc-section a {
   color: #808080;
+}
+
+.misc-section ul {
+  border: solid 2px #6B5B95;
+  border-radius: 5px;
+  padding: 0.5em 1em 0.5em 2.3em;
+  position: relative;
+}
+
+.misc section ul li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+  list-style-type: none!important;
+}
+
+.misc-section ul li:before {
+  font-family: FontAwesome;
+  content: "\f138";
+  position: absolute;
+  left : 1em;
+  color: #6B5B95;
 }
 
 .misc-section li p a:hover {
