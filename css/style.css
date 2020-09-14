@@ -366,6 +366,7 @@ header {
   -webkit-transition: ease-in-out 0.3s;
   -o-transition: ease-in-out 0.3s;
   transition: ease-in-out 0.3s;
+  margin-bottom: 1rem;
 }
 
 .project p {
