@@ -32,7 +32,7 @@
   }
   .slidingVertical span:nth-child(2){
   animation-delay: 2.5s;
-  background-color: #2ECC40;
+  background-color: #FF851B;
   -ms-animation-delay: 2.5s;
   -webkit-animation-delay: 2.5s;
   }
@@ -50,7 +50,7 @@
   }
   .slidingVertical span:nth-child(5){
   animation-delay: 10s;
-  background-color: #FF851B;
+  background-color: #2ECC40;
   -ms-animation-delay: 10s;
   -webkit-animation-delay: 10s;
   }
