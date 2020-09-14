@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- CSS -->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/timeline.css">
+  <link rel="stylesheet" href="./css/queries.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico">
+  <title>Roy Sun | Portfolio</title>
+</head>
+
+<body>
+  <div class="se-pre-con"></div>
+
+  <header>
+    <div class="my-nav">
+      <ul>
+        <li><a id="home-link" href="#">HOME</a></li>
+        <li><a id="about-link" href="#">ABOUT</a></li>
+        <li><a id="portfolio-link" href="#">PROJECTS</a></li>
+        <li><a id="skills-link" href="#">SKILLS</a></li>
+      </ul>
+    </div>
+
+    <div class="header-title">
+      <div class="title">
+<<<<<<< HEAD
+        <h3 id="upperTitle">Hi <span class="college-color bolded">recruiters</span>, my name is <span class="yellow bolded">Roy</span></h3>
+=======
+        <h3 id="upperTitle">Hi <span class="college-color">graduate admissions committee</span>, my name is <span class="yellow">Roy</span></h3>
+>>>>>>> fd4794825aa51c8bb83faab5ecf909979dcf62ee
+        <h5 id="lowerTitle">And I enjoy programming <i class="fa fa-code fa-lg"></i></h5>
+        <button id="see-more" class="my-button"><span>See More </span></button>
+      </div>
+    </div>
+  </header>
+
+  <section class="about-section">
+    <div class="container">
+      <h2 class="subtitle">About Me</h2>
+      <hr>
+  
+      <div class="row about-row">
+        <div class="offset-md-1 col-md-4">
+          <img src="./img/riceowls.jpg" alt="rice" class="img-fluid circle" id="roy-pic">
+        </div>  
+        <div class="offset-md-1 col-md-4">
+          <p>
+            I attended Rice University from 2014 to 2018 and graduated with a degree in mechanical engineering.
+          </p>
+        </div>
+      </div>
+      
+      <div class="test"></div>
+
+      <div class="row about-row">
+        <div class="offset-md-1 col-md-4">
+          <p>
+            Post graduation, I looked for a job in the software industry. This led me to snowy Verona Wisconsin,
+            where I worked as a Technical Solutions Engineer for two years. 
+          </p>
+        </div>
+        <div class="offset-md-1 col-md-4">
+          <img src="./img/epic.png" alt="epic" class="img-fluid circle" id="roy-pic">
+        </div>  
+      </div> 
+
+      <div class="row about-row">
+        <div class="offset-md-1 col-md-4">
+          <img src="./img/uwmadison.png" alt="uw madison" class="img-fluid circle" id="roy-pic">
+        </div> 
+        <div class="offset-md-1 col-md-4">
+          <p>
+            After getting more experience in the software industry, I enrolled in UW Madison 
+            to pursue a Masters in Computer Science. 
+          </p>
+        </div> 
+      </div> 
+    </div>
+
+    
+  </section>
+  
+  <section>
+    <section id=timeline>
+      <h1>A Flexbox Timeline</h1>
+      <p class="leader">All cards must be the same height and width for space calculations on large screens.</p>
+      <div class="demo-card-wrapper">
+        <div class="demo-card demo-card--step1">
+          <div class="head">
+            <div class="number-box">
+              <span>01</span>
+            </div>
+            <h2><span class="small">Subtitle</span> Technology</h2>
+          </div>
+          <div class="body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+            <img src="http://placehold.it/1000x500" alt="Graphic">
+          </div>
+        </div>
+    
+        <div class="demo-card demo-card--step2">
+          <div class="head">
+            <div class="number-box">
+              <span>02</span>
+            </div>
+            <h2><span class="small">Subtitle</span> Confidence</h2>
+          </div>
+          <div class="body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+            <img src="http://placehold.it/1000x500" alt="Graphic">
+          </div>
+        </div>
+    
+        <div class="demo-card demo-card--step3">
+          <div class="head">
+            <div class="number-box">
+              <span>03</span>
+            </div>
+            <h2><span class="small">Subtitle</span> Adaptation</h2>
+          </div>
+          <div class="body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+            <img src="http://placehold.it/1000x500" alt="Graphic">
+          </div>
+        </div>
+    
+        <div class="demo-card demo-card--step4">
+          <div class="head">
+            <div class="number-box">
+              <span>04</span>
+            </div>
+            <h2><span class="small">Subtitle</span> Consistency</h2>
+          </div>
+          <div class="body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+            <img src="http://placehold.it/1000x500" alt="Graphic">
+          </div>
+        </div>
+    
+        <div class="demo-card demo-card--step5">
+          <div class="head">
+            <div class="number-box">
+              <span>05</span>
+            </div>
+            <h2><span class="small">Subtitle</span> Conversion</h2>
+          </div>
+          <div class="body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+            <img src="http://placehold.it/1000x500" alt="Graphic">
+          </div>
+        </div>
+        
+      </div>
+    </section>
+  </section>
+
+  <section class="project-section">
+    <div class="container">
+      <h3 class="header-title subtitle">
+        <a href="https://github.com/ThisIsRoy" target="_blank">
+          Projects
+          <i class="fa fa-github fa-lg fa-fw" aria-hidden="true"></i>
+        </a>
+      </h3>
+      <hr>
+      <p class="subtitle project-subtitle"></p>
+      <div class="row">
+        <div class="offset-xl-1 offset-lg-3 col-xl-4 col-lg-6 offset-s-3 col-s-6 offset-md-3 col-md-6">
+          <a href="https://react-expense-program.herokuapp.com/" target="_blank">
+            <div class="project" id="expensebuddy">
+              <div>
+                <h3>Expense<span class="bolded">Buddy</span></h3>
+              </div>
+            </div>
+          </a> 
+          <div class="container">
+            <p class="project-text">
+              ExpenseBuddy is a expense tracking application built using <span class="bolded">React</span> and <span class="bolded">Redux</span>. 
+              It comes with user authentication and is connected to <span class="bolded">Firebase</span> for data storage. 
+            </p>
+          </div>
+        </div>
+
+        <div class="offset-xl-1 offset-lg-3 col-xl-4 col-lg-6 offset-s-3 col-s-6 offset-md-3 col-md-6">
+          <a href="https://murmuring-sierra-51643.herokuapp.com/" target="_blank">
+            <div class="project" id="riconnect">
+              <div>
+                <h3>RICONNECT</h3>
+              </div>
+            </div>
+          </a>
+          <div class="container">
+            <p class="project-text">
+              Built with <span class="bolded">MongoDB</span>, <span class="bolded">Express</span>, 
+              and <span class="bolded">Node</span>, Riconnect is a full-stack application that allows 
+              users to post and organize events for each of Rice University's residential colleges. It's
+              fully integrated with user accounts and persistent data.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="offset-xl-1 offset-lg-3 col-xl-4 col-lg-6 offset-s-3 col-s-6 offset-md-3 col-md-6">
+          <a href="https://sapphire-group.surge.sh" target="_blank">
+            <div class="project" id="sapphire">
+              <div>
+                <h3>SAPPHIRE</h3>
+              </div>
+            </div>
+          </a>
+          <div class="container">
+            <p class="project-text">
+              Sapphire is a demo landing page created for the fictitious architecture company
+              Sapphire Design Group. It showcases responsive and sleek website design. 
+            </p>
+          </div>
+        </div>
+        <div class="offset-xl-1 offset-lg-3 col-xl-4 col-lg-6 offset-s-3 col-s-6 offset-md-3 col-md-6">
+          <a href="http://visit-houston.surge.sh/" target="_blank">
+            <div class="project" id="houston">
+              <div>
+                <h3>VISIT HOUSTON</h3>
+              </div>
+            </div>
+          </a>
+          <div class="container">
+            <p class="project-text">
+              Visit Houston is a demo landing page for the city where I spent four years of my life. I created this as 
+              a successor to my Sapphire demo page so I can show my progress in front-end development.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="offset-xl-1 offset-lg-3 col-xl-4 col-lg-6 offset-s-3 col-s-6 offset-md-3 col-md-6">
+          <div class="project-soon" id="angular">
+          </div>
+          <div class="container">
+            <p class="project-text"> <span class="bolded">Angular</span> app in progress. Coming summer 2019!</p>
+          </div>
+        </div>
+      </div>
+
+      
+      <p class="project-subtitle">Some of my fun mini-projects</p>
+      <div class="small-container">
+        <div class="row">
+          <div class="col-md-4">
+            <a href="https://codepen.io/ThisIsRoy/full/WOVaee/" target="_blank">
+              <div class="card">
+                <img class="card-img-top" src="./img/mini-project/color game.jpg" alt="rgb game">
+                <div class="card-block">
+                  <h4 class="card-title">RGB Game</h4>
+                  <p class="card-text">Match colors to rgb code!</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          
+          <div class="col-md-4">
+            <a href="https://codepen.io/ThisIsRoy/full/rzxPaK/" target="_blank">
+              <div class="card">
+                <img class="card-img-top" src="./img/mini-project/ping pong.png" alt="ping pong">
+                <div class="card-block">
+                  <h4 class="card-title">Ping Pong</h4>
+                  <p class="card-text">Play ping pong against an ai!</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          
+          <div class="col-md-4">
+            <a href="https://codepen.io/ThisIsRoy/full/VWPwgE/" target="_blank">
+              <div class="card">
+                <img class="card-img-top" src="./img/mini-project/quote gen.PNG" alt="quote gen">
+                <div class="card-block">
+                  <h4 class="card-title">Quote</h4>
+                  <p class="card-text">Generates a random quote from an api!</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <a href="https://decide-for-me-react.herokuapp.com/" target="_blank">
+              <div class="card">
+                <img class="card-img-top" src="./img/mini-project/decide.jpg" alt="decide">
+                <div class="card-block">
+                  <h4 class="card-title">Decide 4 Me</h4>
+                  <p class="card-text">Let us make your decisions!</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="https://codepen.io/ThisIsRoy/full/YxKNNz/" target="_blank">
+              <div class="card">
+                <img class="card-img-top" src="./img/mini-project/weather.png" alt="weather">
+                <div class="card-block">
+                  <h4 class="card-title">Weather</h4>
+                  <p class="card-text">Check your local weather!</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="https://codepen.io/ThisIsRoy/full/GvJQRm/" target="_blank">
+              <div class="card">
+                <img class="card-img-top" src="./img/mini-project/wikipedia.png" alt="wikipedia">
+                <div class="card-block">
+                  <h4 class="card-title">Wiki Viewer</h4>
+                  <p class="card-text">Search wikipedia articles!</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>  
+    </div>  
+  </section>
+
+  <section class="logo-section">
+    <div class="container">
+      <h3 class="header-title subtitle">Skills</h3>
+      <hr>
+      <div class="row logos">
+        <div class="offset-2 col-2">
+          <img src="./img/logos/html.png" alt="html" class="img-fluid">
+        </div>
+        <div class="col-2">
+          <img src="./img/logos/css.png" alt="css" class="img-fluid">
+        </div>
+        <div class="col-2">
+          <img src="./img/logos/js.png" alt="js" class="img-fluid">
+        </div>
+        <div class="col-2">
+          <img src="./img/logos/jquery.gif" alt="jquery" class="img-fluid">
+        </div>
+      </div>
+
+      <div class="row logos">
+        <div class="offset-2 col-2">
+          <img src="./img/logos/bootstrap.png" alt="bootstrap" class="img-fluid">
+        </div>
+        <div class="col-2">
+          <img src="./img/logos/mongodb.png" alt="mongodb" class="img-fluid">
+        </div>
+        <div class="col-2">
+          <img src="./img/logos/node.png" alt="node" class="img-fluid">
+        </div>
+        <div class="col-2">
+          <img src="./img/logos/react.png" alt="react" class="img-fluid">
+        </div>
+      </div>
+      <div class="row logos">
+        <div class="offset-2 col-2">
+          <img src="./img/logos/redux.png" alt="redux" class="img-fluid">
+        </div>
+        <div class="col-2">
+          <img src="./img/logos/firebase.png" alt="firebase" class="img-fluid">
+        </div>
+        <div class="col-2">
+          <img src="./img/logos/python.png" alt="python" class="img-fluid">
+        </div>
+        <div class="col-2">
+          <img src="./img/logos/git.png" alt="git" class="img-fluid">
+        </div>
+      </div>
+
+      <p class="subtitle text-center">Learning/want to learn</p>
+      <div class="row">
+        <div class="offset-2 col-2">
+          <img src="./img/logos/angular.png" alt="angular" class="img-fluid">
+        </div>
+        <div class="col-2">
+          <img src="./img/logos/meteor.png" alt="meteor" class="img-fluid">
+        </div>
+        <div class="col-2">
+          <img src="./img/logos/mysql.jpg" alt="mysql" class="img-fluid">
+        </div>
+        <div class="col-2">
+          <img src="./img/logos/vue.jpg" alt="vue" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="misc-section">
+    <div class="container">
+      <h3 class="header-title subtitle">Misc</h3>
+      <hr>
+      <div class="big-container">
+        <p>
+          These three websites below were crucial to me in my journey to learn programming. If you're looking for a 
+          place to start, I can't recommend them enough! Javascript is one of easier languages to 
+          pick up, and you can build cool websites by learning it alongside HTML and CSS.
+        </p>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="resource">
+              <a href="https://www.freecodecamp.org/"><i class="fa fa-free-code-camp fa-5x"></i></a>
+              <h3><span class="bolded">freeCodeCamp</span></h3>
+              <p>
+                Starts with a series of HTML, CSS, and Javascript tutorials.
+                Afterwards sets you loose with intersting projects and algorithm challenges.
+                Works best when complimented with other resources. 
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="resource">
+              <a href="https://www.coursera.org/"><i class="fa fa-graduation-cap fa-5x"></i></a>
+              <h3><span class="bolded">Coursera</span></h3>
+              <p>
+                I strongly recommend the Rice University "Fundamentals of Computing" series. Taught in Python
+                but also incorporates essential math skills in its assignments. 
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="resource">
+              <a href="https://www.udemy.com/"><i class="fa fa-leanpub fa-5x"></i></a>
+              <h3><span class="bolded">Udemy</span></h3>
+              <p>
+                Contains a plethora of quality courses. Get them during sales for $10.
+                Highly recommend Colt Steele's "Web Developer Bootcamp" for learning 
+                HTML, CSS, and Javascript with a sneak peak into Express and Node.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="small-container">
+        <p>Here is also a series of helpful resources that will complement your learning.</p>
+        <ul>
+          <li>
+            <p>
+              <a href="https://news.ycombinator.com/">Hacker News</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://www.reddit.com/r/learnprogramming/">learnprogramming subreddit</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x">Harvard CS50</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://leetcode.com/">LeetCode</a>
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="http://www.crackingthecodinginterview.com/">Cracking the Coding Interview</a>
+            </p>
+          </li>
+        </ul>
+        <div class="contact-info">
+          <a href="https://github.com/ThisIsRoy">
+            <i class="fa fa-lg fa-github fa-fw" aria-hidden="true"></i>
+            <span class="bolded">GitHub</span>
+          </a>
+          <p>
+            <i class="fa fa-lg fa-envelope fa-fw"></i>
+            <span class="bolded">rs58@rice.edu</span>
+          </p>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <section class="footer">
+    <p>Made by Roy Sun &copy; 2018</p>
+  </section>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="./js/jquery-3.3.1.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/jquery.waypoints.min.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
