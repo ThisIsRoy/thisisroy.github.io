@@ -3,6 +3,11 @@
 /* Colors */
 /* Calculations */
 /* Placeholders */
+.timeline-section {
+  background-color: #f7f7f7;
+  margin-top: 0;
+}
+
 @media (min-width: 1000px) {
     #timeline .demo-card:nth-child(odd) .head::after, #timeline .demo-card:nth-child(even) .head::after {
         position: absolute;

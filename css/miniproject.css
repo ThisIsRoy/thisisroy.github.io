@@ -1,0 +1,32 @@
+.miniproject-section {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.miniproject {
+    height: 100vh;
+    background-image: 
+    linear-gradient(to right bottom, 
+   rgba(76, 216, 255, 0.8),
+   rgba(30, 108, 217, 0.8));
+    
+  background-size: cover;
+    background-position: top;
+    position: relative;
+
+    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+}
+
+@media (max-width: 767px) {
+    .miniproject {
+        height: 200vh;
+        clip-path: none;
+    }
+} 
+
+.miniproject-title {
+  font-size: 2rem;
+  margin: 4rem;
+  padding-top: 8rem;
+  text-align: center;
+}

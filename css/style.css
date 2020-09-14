@@ -324,7 +324,7 @@ header {
 /* ------------- */
 
 .project-section {
-  background-color: #f7f7f7;
+  margin-bottom: 0;
 }
 
 .project-section .header-title {
@@ -451,6 +451,7 @@ header {
   -webkit-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out; 
+  margin-bottom: 3rem;
 }
 
 .card:hover {
