@@ -11,6 +11,7 @@
     crossorigin="anonymous"> -->
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/timeline.css">
   <link rel="stylesheet" href="./css/queries.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
@@ -34,7 +35,7 @@
 
     <div class="header-title">
       <div class="title">
-        <h3 id="upperTitle">Hi <span class="college-color">UW Madison</span>, my name is <span class="yellow">Roy</span></h3>
+        <h3 id="upperTitle">Hi <span class="college-color bolded">recruiters</span>, my name is <span class="yellow bolded">Roy</span></h3>
         <h5 id="lowerTitle">And I enjoy programming <i class="fa fa-code fa-lg"></i></h5>
         <button id="see-more" class="my-button"><span>See More </span></button>
       </div>
@@ -43,41 +44,128 @@
 
   <section class="about-section">
     <div class="container">
-      
-      <div class="row">
+      <h2 class="subtitle">About Me</h2>
+      <hr>
+  
+      <div class="row about-row">
         <div class="offset-md-1 col-md-4">
-          <img src="./img/roy.jpg" alt="roy" class="img-fluid circle" id="roy-pic">
+          <img src="./img/riceowls.jpg" alt="rice" class="img-fluid circle" id="roy-pic">
         </div>  
         <div class="offset-md-1 col-md-4">
-          <div class="about-header">
-            <h3 class="subtitle">About Me</h3>
-            <hr>
-          </div>
           <p>
-            My journey to self-learning programmiing started during a ferocious blizzard over winter break.
-            Stuck in my house with nothing to do, I decided to go 
-            through some online programming tutorials to relieve my boredom.
+            I attended Rice University from 2014 to 2018 and graduated with a degree in mechanical engineering.
           </p>
-          <p>I really liked it. Enough so that when the blizzard subsided and I was given the 
-            choice to leave the house, I turned it down to continue coding. 
-            Even after school resumed, I kept learning to program during my freetime.
-          </p>
-          <p>
-            I taught myself HTML, CSS, Javascript, and popular frameworks/libraries like 
-            Node and React. This website serves as a convenient place for me to demonstrate
-            what I have created and what my next goals are.
-          </p>
-          <p>I hope you enjoy!</p>
         </div>
       </div>
       
+      <div class="test"></div>
+
+      <div class="row about-row">
+        <div class="offset-md-1 col-md-4">
+          <p>
+            Post graduation, I looked for a job in the software industry. This led me to snowy Verona Wisconsin,
+            where I worked as a Technical Solutions Engineer for two years. 
+          </p>
+        </div>
+        <div class="offset-md-1 col-md-4">
+          <img src="./img/epic.png" alt="epic" class="img-fluid circle" id="roy-pic">
+        </div>  
+      </div> 
+
+      <div class="row about-row">
+        <div class="offset-md-1 col-md-4">
+          <img src="./img/uwmadison.png" alt="uw madison" class="img-fluid circle" id="roy-pic">
+        </div> 
+        <div class="offset-md-1 col-md-4">
+          <p>
+            After getting more experience in the software industry, I enrolled in UW Madison 
+            to pursue a Masters in Computer Science. 
+          </p>
+        </div> 
+      </div> 
     </div>
+
+    
+  </section>
+  
+  <section>
+    <section id=timeline>
+      <h1>A Flexbox Timeline</h1>
+      <p class="leader">All cards must be the same height and width for space calculations on large screens.</p>
+      <div class="demo-card-wrapper">
+        <div class="demo-card demo-card--step1">
+          <div class="head">
+            <div class="number-box">
+              <span>01</span>
+            </div>
+            <h2><span class="small">Subtitle</span> Technology</h2>
+          </div>
+          <div class="body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+            <img src="http://placehold.it/1000x500" alt="Graphic">
+          </div>
+        </div>
+    
+        <div class="demo-card demo-card--step2">
+          <div class="head">
+            <div class="number-box">
+              <span>02</span>
+            </div>
+            <h2><span class="small">Subtitle</span> Confidence</h2>
+          </div>
+          <div class="body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+            <img src="http://placehold.it/1000x500" alt="Graphic">
+          </div>
+        </div>
+    
+        <div class="demo-card demo-card--step3">
+          <div class="head">
+            <div class="number-box">
+              <span>03</span>
+            </div>
+            <h2><span class="small">Subtitle</span> Adaptation</h2>
+          </div>
+          <div class="body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+            <img src="http://placehold.it/1000x500" alt="Graphic">
+          </div>
+        </div>
+    
+        <div class="demo-card demo-card--step4">
+          <div class="head">
+            <div class="number-box">
+              <span>04</span>
+            </div>
+            <h2><span class="small">Subtitle</span> Consistency</h2>
+          </div>
+          <div class="body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+            <img src="http://placehold.it/1000x500" alt="Graphic">
+          </div>
+        </div>
+    
+        <div class="demo-card demo-card--step5">
+          <div class="head">
+            <div class="number-box">
+              <span>05</span>
+            </div>
+            <h2><span class="small">Subtitle</span> Conversion</h2>
+          </div>
+          <div class="body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+            <img src="http://placehold.it/1000x500" alt="Graphic">
+          </div>
+        </div>
+        
+      </div>
+    </section>
   </section>
 
   <section class="project-section">
     <div class="container">
       <h3 class="header-title subtitle">
-        <a id="project-link" href="https://github.com/ThisIsRoy" target="_blank">
+        <a href="https://github.com/ThisIsRoy" target="_blank">
           Projects
           <i class="fa fa-github fa-lg fa-fw" aria-hidden="true"></i>
         </a>
