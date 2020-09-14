@@ -4,7 +4,7 @@
 }
 
 .miniproject {
-    height: 100vh;
+    height:80rem;
     background-image: 
     -webkit-gradient(linear, 
    left top, right bottom, 
@@ -23,14 +23,14 @@
     background-position: top;
     position: relative;
 
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 60rem, 0 100%);
 
-            clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 60rem, 0 100%);
 }
 
 @media (max-width: 767px) {
     .miniproject {
-        height: 250vh;
+        height: 180rem;
         -webkit-clip-path: none;
                 clip-path: none;
     }
