@@ -16,13 +16,13 @@ $(document).ready(() =>{
 
   $('#home-section').click(function () {
     $('html, body').animate({
-      scrollTop: $('header').offset().top
+      scrollTop: $('.header-title').offset().top
     }, 2000);
   });
 
   $('#about-link').click(function () {
     $('html, body').animate({
-      scrollTop: $('.about-section').offset().top - 50
+      scrollTop: $('.timeline-section').offset().top - 50
     }, 1500);
   });
 
@@ -39,7 +39,7 @@ $(document).ready(() =>{
   });
 
   // Sticky navbar 
-  $(".about-section").waypoint(function (direction) {
+  $(".timeline-section").waypoint(function (direction) {
     if (direction === "down") {
       $(".my-nav").addClass("sticky-nav");
     } else {
